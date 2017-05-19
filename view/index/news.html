@@ -1,0 +1,39 @@
+<!-- <?php print_r($data['messages']) ?> -->
+<table border="1">
+    <tr>
+        <th>заголовок</th>
+        <th>дата</th>
+        <th>автор</th>
+        <th>текст</th>
+        <th>теги</th>
+<?if($user):?>
+        <th colspan="2">управление</th>
+<?endif?>
+    </tr>
+    <?php foreach($messages as $mess):?>
+    <tr>
+        <td><?=$mess['name']?></td>
+        <td><?=$mess['date']?></td>
+        <td><?=$mess['author']?></td>
+        <td><?=$mess['text']?></td>
+        <td><?=$mess['tags']?></td>
+<? if($user['name'] == $mess['author'] || $user['mode'] == 'admin'):?>
+        <!-- <td><button class="newsEdit"><a href="<?=SUBSERVER?>news/edit/<?=$mess['id']?>/">ред</a></button></td> -->
+        <td><button class="newsEdit" data-item=<?=$mess['id']?>><a href="">ред</a></button></td>
+        <td><button><a href="<?=SUBSERVER?>news/remove/<?=$mess['id']?>/">X</a></button></td>
+        <!-- <td><button class="newsRemove" data-item=<?=$mess['id']?>><a href="">X</a></button></td> -->
+<? endif?>
+    </tr>
+    <?php endforeach?>
+</table>
+<?if($user):?>
+<button><a href="" id="newsAdd">добавить</a></button>
+<div class="formForNews" style="display: none;">
+    <form method="POST" action="">
+        заголовок: <input type="text" id="newsTitle" name="newsTitle"><br>
+        текст: <input type="text" id="newsText" name="newsText"><br>
+        теги: <input type="text" id="newsTags" name="newsTags"><br>
+         <!--<input type="submit" id="newsButton" value="ok">-->
+    </form>
+</div>
+<?endif?>

@@ -1,0 +1,8 @@
+<?if($user):?>
+<p>ВСЕ ОК</p>
+<button><a href="<?=SUBSERVER?>logout/">Выйти</a></button>
+<?else:?>
+<p>Ты КТО?</p>
+<button><a href="<?=SUBSERVER?>auth/">Авторизация</a></button>
+<button><a href="<?=SUBSERVER?>reg/">Регистрация</a></button>
+<?endif?>
