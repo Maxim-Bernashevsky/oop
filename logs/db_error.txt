@@ -15,9 +15,3 @@
 17 05 17 08:50:54	1054	Unknown column 'session' in 'where clause'	
 17 05 17 08:52:44	1054	Unknown column 'session' in 'where clause'	
 17 05 17 08:58:03	1054	Unknown column 'session' in 'where clause'	
-19 05 17 08:56:40	1054	Unknown column 'album' in 'where clause'	
-19 05 17 08:56:58	1064	You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1	
-19 05 17 08:57:43	1054	Unknown column 'ididid' in 'where clause'	
-19 05 17 08:58:56	1054	Unknown column 'ididid' in 'where clause'	
-19 05 17 08:59:52	1054	Unknown column 'ididid' in 'where clause'	
-19 05 17 09:00:43	1054	Unknown column 'ididid' in 'where clause'	
