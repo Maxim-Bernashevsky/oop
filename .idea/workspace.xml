@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee580388-187f-420f-8499-3d0ac0612dd6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/albums.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/albumsForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/albums.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/photo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/index/albums.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/db_error.txt" afterPath="$PROJECT_DIR$/logs/db_error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.txt" afterPath="$PROJECT_DIR$/logs/error.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/route.php" afterPath="$PROJECT_DIR$/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/main/header.html" afterPath="$PROJECT_DIR$/view/main/header.html" />
     </list>
     <ignored path="AVL.oop.dz2-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -335,15 +325,15 @@
       <workItem from="1495125411599" duration="5337000" />
       <workItem from="1495209510274" duration="1102000" />
       <workItem from="1495211122877" duration="1352000" />
-      <workItem from="1495212670572" duration="4356000" />
+      <workItem from="1495212670572" duration="4547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20970000" />
+    <option name="totallyTimeSpent" value="21161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
