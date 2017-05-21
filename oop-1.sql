@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Май 20 2017 г., 21:18
+-- Время создания: Май 21 2017 г., 13:41
 -- Версия сервера: 10.1.16-MariaDB
 -- Версия PHP: 7.0.9
 
@@ -38,7 +38,9 @@ CREATE TABLE `albums` (
 --
 
 INSERT INTO `albums` (`id`, `name`, `date`, `dir`) VALUES
-(1, 'jnfkejnfkejrnf', '2017-05-10', 'fefref/erferfef/efefef');
+(1, 'album1', '2017-05-10', 'img-repo/album1/'),
+(2, 'album2', '2017-05-07', 'img-repo/album2/'),
+(3, 'album3', '2017-05-03', 'img-repo/album3/');
 
 -- --------------------------------------------------------
 
@@ -110,8 +112,13 @@ CREATE TABLE `photos` (
 --
 
 INSERT INTO `photos` (`id`, `url`, `id_album`) VALUES
-(1, 'ewwefwefw/wfewfwefw/wfwefwefwхуй', 1),
-(2, 'ewwefwefw/wfewfwefw/wfwefwefwхуй', 1);
+(1, 'hot-air-balloon-valley-sky-99551.jpeg', 1),
+(2, 'landmark-bridge-cliff-california.jpeg', 1),
+(3, 'grasshopper-insect-nature-animal-59981.jpeg', 2),
+(4, 'pexels-photo-129922.jpeg', 2),
+(5, 'field-summer-sun-meadow.jpg', 3),
+(6, 'lights-night-dark-abstract.jpeg', 3),
+(7, 'pexels-photo-54278.jpeg', 3);
 
 -- --------------------------------------------------------
 
@@ -181,7 +188,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT для таблицы `albums`
 --
 ALTER TABLE `albums`
-  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT для таблицы `events`
 --
@@ -196,7 +203,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT для таблицы `photos`
 --
 ALTER TABLE `photos`
-  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT для таблицы `user`
 --
