@@ -13,17 +13,16 @@ class Model_albums extends Content {
     function show() {}
     static function showList() {
         $info = DB::getAll('
-			SELECT `albums`.`id` AS `id`,
-		`albums`.`name`,
-        `albums`.`date`,
-        `albums`.`dir`,
-        `photos`.`id` AS `id_photo`,
-        `photos`.`url` AS `photo_url`,
-        `photos`.`id_album`
+			SELECT *
           FROM `albums` 
-			LEFT JOIN `photos` 
-			 ON `albums`.`id` = `photos`.`id_album`;
 		');
+        foreach ($info as $key => &$album) {
+            $photos = DB::getAll(
+                'SELECT * FROM `photos`
+                  WHERE `id_album` = '.$album['id']
+            );
+            $album['photos'] = $photos;
+        }
         return $info;
     }
     public static function pushPhoto(Photo $photo) {
