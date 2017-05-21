@@ -151,9 +151,3 @@
 18 05 17 08:57:13	404	Not Found	http://localhost/AVL.oop.dz2-master/auth/%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20variable:%20file%20in%20%3Cb%3EC:/xampp/htdocs/AVL.oop.dz2-master/view/main/head.html%3C/b%3E%20on%20line%20%3Cb%3E9%3C/b%3E%3Cbr%20/%3E
 18 05 17 08:57:13	404	Not Found	http://localhost/AVL.oop.dz2-master/auth/%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20variable:%20file%20in%20%3Cb%3EC:/xampp/htdocs/AVL.oop.dz2-master/view/main/script.html%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E
 18 05 17 09:00:35	404	Not Found	http://localhost/AVL.oop.dz2-master/auth/%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20variable:%20file%20in%20%3Cb%3EC:/xampp/htdocs/AVL.oop.dz2-master/view/main/script.html%3C/b%3E%20on%20line%20%3Cb%3E8%3C/b%3E%3Cbr%20/%3E
-19 05 17 07:22:30	404	Not Found	http://localhost/oop-master/index
-19 05 17 08:56:40	404	Not Found	http://localhost/oop-master/js/albumsForm.js
-19 05 17 08:56:58	404	Not Found	http://localhost/oop-master/js/albumsForm.js
-19 05 17 08:57:43	404	Not Found	http://localhost/oop-master/js/albumsForm.js
-19 05 17 08:59:52	404	Not Found	http://localhost/oop-master/js/albumsForm.js
-19 05 17 09:10:05	404	Not Found	http://localhost/oop-master/js/albumsForm.js

@@ -32,14 +32,6 @@ class Route extends Controller_base {
 			'#^' . SUBSERVER . 'events/(edit)/([0-9]+)/$#',
 			'#^' . SUBSERVER . 'events/(remove)/([0-9]+)/$#',
 		],
-		'Controller_albums' => [
-			'#^' . SUBSERVER . 'albums/$#',
-			'#^' . SUBSERVER . 'albums/(show)/$#',
-			'#^' . SUBSERVER . 'albums/(show)/([0-9]+)/$#',
-			'#^' . SUBSERVER . 'albums/(add)/$#',
-			'#^' . SUBSERVER . 'albums/(edit)/([0-9]+)/$#',
-			'#^' . SUBSERVER . 'albums/(remove)/([0-9]+)/$#',
-		],
 		'Controller_error' => [
 			'#^' . SUBSERVER . '(error)/$#',
 			'#^.*$#',
